@@ -1,7 +1,8 @@
 
 var nameArray = ['John Snow', 'Gill Bates', 'Cool Joe', 'Rigby James', 'Morty Rick'];
+var num = nameArray.length - 1;
 //holding Employees names for later use, and adding the array of names.
-var first = "Employees:" + nameArray;
+var first = "There are" + num +"Employees:" + nameArray;
 console.log(first);
 // asking which name they would like to remove
 var userAns = prompt("Who do you wish to remove from the list\?");
@@ -16,5 +17,5 @@ for(var i = 0; i < nameArray.length; i++){
 	}
 }
 //I want to display the new array with four names that has been spliced
-var second = "Employees:" + nameArray;
+var second = "There are"+' '+num+' '+"Employees:"+ nameArray;
 console.log(second);
